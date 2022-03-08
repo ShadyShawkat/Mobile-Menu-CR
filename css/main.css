@@ -32,7 +32,7 @@ header {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   z-index: 100;
   flex-direction: column;
 }
@@ -46,7 +46,7 @@ header {
 }
 
 .mobile-menu-close {
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0 20px;
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
@@ -274,7 +274,7 @@ li {
 
 .mobile-menu-options li a {
   color: white;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .gtime {

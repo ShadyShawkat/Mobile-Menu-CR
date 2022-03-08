@@ -8,9 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
   const mobileMenuToggle = () => {
     mobileMenu.classList.toggle('d-flex');
     body.classList.toggle('overflow-hidden');
-  }
+  };
 
-  [hamMenu, mobileMenuCloseBtn, ...mobileMenuOptions.children].forEach(el => {
-    el.addEventListener('click', mobileMenuToggle)
-  })
+  [hamMenu, mobileMenuCloseBtn, ...mobileMenuOptions.children].forEach((el) => {
+    el.addEventListener('click', mobileMenuToggle);
+  });
 });
