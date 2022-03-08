@@ -27,6 +27,32 @@ header {
   color: white;
 }
 
+.mobile-menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3C3A39;
+  z-index: 100;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.mobile-menu-close {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: red;
+}
+
 #desktop-nav,
 #desktop-nav ul {
   display: none;
@@ -244,6 +270,11 @@ li {
   background: rgba(255, 255, 255, 0.24) !important;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+}
+
+.mobile-menu-options li a {
+  color: white;
+  font-weight: bold
 }
 
 .gtime {
