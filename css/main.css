@@ -36,6 +36,8 @@ header {
   z-index: 100;
   flex-direction: column;
   padding: 20px 20px 0 20px;
+  top: 0;
+  left: 0;
 }
 
 .d-flex {
@@ -50,7 +52,8 @@ header {
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
-  color: red;
+  color: gray;
+  font-size: 80px;
 }
 
 #desktop-nav,
