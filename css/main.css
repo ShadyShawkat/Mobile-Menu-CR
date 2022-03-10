@@ -51,7 +51,6 @@ header {
 .mobile-menu-close {
   display: flex;
   justify-content: flex-end;
-  font-size: 30px;
   color: gray;
   font-size: 80px;
 }
