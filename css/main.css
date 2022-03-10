@@ -27,7 +27,36 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.mobile-menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3c3a39;
+  z-index: 100;
+  flex-direction: column;
+  padding: 20px 20px 0 20px;
+  top: 0;
+  left: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.mobile-menu-close {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  font-size: 80px;
+}
+
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -243,6 +272,18 @@ li {
   background: rgba(255, 255, 255, 0.24) !important;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+}
+
+.mobile-menu-options li {
+  text-align: left;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+
+.mobile-menu-options li a {
+  color: white;
+  font-weight: bold;
 }
 
 .gtime {
